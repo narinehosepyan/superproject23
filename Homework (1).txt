@@ -1,0 +1,27 @@
+1.Ստեղծել app.js ֆայլ , public և view պապկաներ:
+ view պապկայի մեջ ստեղծել components պապկա header.ejs և footer.ejs ֆայլերով: 
+ Header.ejs պետք է պարունակի կայքի head մասը և menu-ին,
+ իսկ footer.ejs Ձեր անուն ազգանունը:View պապկայում ստեղծել
+  index.ejs և նեռարել header.ejs և footer.ejs ֆայլերը:
+app.js աշխատացնելիս գլխավոր էջում պետք  բացի index էջը (route /):
+
+2.Գլխավոր էջ (index.ejs) էջում արտածել որևէ նկար:
+
+3. app.js ավելացնել info էջ (route /info), որտեղ 
+data={
+		name:'Narine', 
+		email:'hosepyannarine@gmail.com',
+		languages:['c++','javascript', 'php']
+	}
+ինֆորմացիան արտածվում է info.ejs -ում , ընդ որում languages 
+արտածել համարակալված ցուցակով:
+
+4.Ստեղծել random էջ (route /random), որտեղ կա form երկու 
+input-ներով և հաստատման կոճակով : Այցելուն լրացնում է դաշտերը 
+մինիմում և մաքսիմում թվեր  և հաստատելուց h1 թեգքում տեսնում է այդ տիրությում պատահական թիվ GET մեթոդով:
+
+5.Ստեղծել contact էջ (route /contact), որտեղ կա form 5 դաշտերով 
+և հաստատման կոճակով (Նկ. homework5.jpg): Այցելուն լրացնում է 
+դաշտերը  և հաստատելուց հետո Post մեթոդով  contact-success.ejs
+ էջում արտածվում դաշտերում լրացված  տվյալները 
+ (Նկ. homework5res.jpg):
