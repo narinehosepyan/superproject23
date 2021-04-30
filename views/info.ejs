@@ -1,0 +1,11 @@
+<%- include('components/header')%>
+<main class="container">
+    <h1><%= data.name %></h1>
+    <p><%= data.email %></p>
+    <ul>
+        <% data.languages.forEach(lang=>{ %>
+            <li><%= lang %></li>
+       <%})%>
+    </ul>
+</main>
+<%- include('components/footer')%>;

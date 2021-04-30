@@ -7,7 +7,7 @@ app.js աշխատացնելիս գլխավոր էջում պետք  բացի ind
 
 2.Գլխավոր էջ (index.ejs) էջում արտածել որևէ նկար:
 
-3. app.js ավելացնել info էջ (route /info), որտեղ 
+3. app.js ավելացնել info -ի մեջ ուղղի  (" /info"), որտեղ 
 data={
 		name:'Narine', 
 		email:'hosepyannarine@gmail.com',
